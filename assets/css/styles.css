@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+#home{
+  text-align: center;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.form-group{
+  position: absolute;
+  padding: 20px;
+  color: #d3d3d3;
+}
+
+#search{
+  background-color: rgba(0,0,0,.5)
+}
+
+.bars{
+  background:#000;
+  padding:20px;
+  color:white;
+}
+
+#search{
+  color: #d3d3d3;
+}
+
+#buttons{
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+}
+
+#clicked{
+  position: absolute;
+  bottom: 1%;
+  left: 1%;
+  border-left: 1px solid white;
+  padding-left: 5px;
+}
+
+#info{
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+}
+
+#code{
+  margin-right: 10px;
+  color: #d3d3d3;
+}
+
+#about{
+  color: #d3d3d3;
+}
+
+#footer{
+  position: absolute;
+  bottom: 3%;
+  width: 90%;
+  text-align: center;
+}
+
+.modal-backdrop{
+  background-color: black;
+  opacity: .8!important;
+}
+
+.modal-content{
+  color:white;
+  font-size: 25px;
+  text-align: center;
+  background-color: black;
+}
+
+.modal {
+  text-align: center;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
